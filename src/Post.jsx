@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 
 // Exportar um arquivo com Named Export
 export function Post(props) {
+  //passando propriedades para o componente
   return (
     <div>
       <strong>{props.author}</strong>
@@ -17,6 +18,6 @@ Post.propTypes = {
   content: PropTypes.string.isRequired,
 };
 /* 
-Exportar um arquivo com Default Export
+Exportar um arquivo com Default Export:
 export default Post
 */
